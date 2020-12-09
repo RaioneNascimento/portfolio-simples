@@ -1,4 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+} 
+
+:root {
+  --color-font-primary: #FFFFFF;
+  --color-font-hover: #00BFFF;
+  --color-border-img: #00BFFF;
+  --color-link: #00BFFF;
+}
 body {
   background: #282A36;
-  color: white;
+  color: var(--color-font-primary);
+  font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+header {
+  padding: 32px;
+  border-bottom: 1px solid #333;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+header div {
+  text-align: center;
+}
+
+.links a {
+  color: var(--color-font-primary);
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0 16px;
+  
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: var(--color-font-hover);
+  transition: color 200ms;
+}  
+
+#wrapper {
+  text-align: center;
+  padding: 32px;
+}
+
+#wrapper img {
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid var(--color-border-img);
+  margin-bottom: 32px;
+}
+
+#wrapper h1 {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: bold;
+}
+
+#wrapper h2 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  margin-top: 8px;
+  opacity: 0.8;
+}
+
+#wrapper p {
+  max-width: 500px;
+  margin: 32px auto;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+#wrapper p a {
+  color: #00BFFF;
+}
+
+#links-footer {
+  text-decoration: underline;
 }
