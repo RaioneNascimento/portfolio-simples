@@ -7,9 +7,10 @@
 
 :root {
   --color-font-primary: #FFFFFF;
-  --color-font-hover: #00BFFF;
-  --color-border-img: #00BFFF;
-  --color-link: #00BFFF;
+  --color-font-hover: #ed145b;
+  --color-border-img: #ed145b;
+  --color-link: #ed145b;
+  --color-razzmatazz: #ED145b;
 }
 body {
   background: #282A36;
@@ -24,7 +25,7 @@ header {
   background: rgba(0, 0, 0, 0.1);
 }
 
-header div {
+.links {
   text-align: center;
 }
 
@@ -75,10 +76,80 @@ header div {
   line-height: 28px;
 }
 
-#wrapper p a {
-  color: #00BFFF;
+#links-footer a{
+  border-bottom: 1px solid var(--color-border-img);
 }
 
-#links-footer {
-  text-decoration: underline;
+footer p {
+  text-align: center;
+}
+
+
+/* === CARDS === */
+
+.cards {
+  max-width: 800px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background-color: var(--color-razzmatazz);
+}
+
+.card__image-container img {
+  width: 100%;
+}
+
+.card__content,
+.card__info {
+  padding: 24px;
+}
+
+.card__info {
+  display: grid;
+  background-color: var(--color-razzmatazz);
+  filter: brightness(90%);
+  padding: 5px 20px;
+  /* border-radius: 40px; */
+  text-align: center;
+}
+
+
+/* === MODAL === */
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal {
+  background-color: white;
+  width: 90%;
+  height: 90%;
+  margin: 5vh auto;
+  position: relative;
+}
+
+.modal .close-modal {
+  color: black;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+}
+
+
+/* === MODAL.ACTIVE=== */
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
 }
