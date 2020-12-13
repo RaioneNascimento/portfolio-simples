@@ -76,6 +76,11 @@ header {
   line-height: 28px;
 }
 
+#proj {
+  text-align: center;
+  padding: 32px;
+}
+
 #links-footer a{
   border-bottom: 1px solid var(--color-border-img);
 }
