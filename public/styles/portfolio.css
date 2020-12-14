@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+} 
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0em;
+  vertical-align: middle;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+:root {
+  --color-font-primary: #FFFFFF;
+  --color-font-hover: #ed145b;
+  --color-border-img: #ed145b;
+  --color-link: #ed145b;
+  --color-razzmatazz: #ED145b;
+  --color-buttom-hover: #EC0B43;
+}
+body {
+  background: #282A36;
+  color: var(--color-font-primary);
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+header {
+  padding: 32px;
+  border-bottom: 1px solid #333;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.links {
+  text-align: center;
+}
+
+.links a {
+  color: var(--color-font-primary);
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0 16px;
+  
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: var(--color-font-hover);
+  transition: color 200ms;
+} 
+
+.project a {
+  width: 90%;
+  height: 50px;
+  margin: 10px 5%;
+  background-color: var(--color-razzmatazz);
+  color: var(--color-font-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.project a:hover {
+  background-color: var(--color-buttom-hover)
+}
+
+.projects {
+  margin-bottom: 100px;
+}
+
+.todo-conteudo {
+  padding: 0 10%;
+}
+
+.conteudo {
+  float: left;
+  width: 100%
+}
+
+.projects h1 {
+  font-size: 30px;
+  color: white;
+  display: flex;
+  margin: 50px 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.project {
+  margin: 10px 10px;
+  border-radius: 15px;
+  background-color: #30384f;
+  width: 320px;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.project p {
+  margin-top: 10px;
+  color: white;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+.project span {
+  text-align: center;
+  color: white;
+  margin: 10px 0;
+  width: 100%;
+  display: block;
+}
+
+.projectIcon {
+  display: inline;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.project .projectIcon img{
+  width: 50px;
+  height: 50px;
+  background-color: #202833;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 5px;
+}
+
+.animations {
+  transition: 0.4s;
+}
+
+.animations:hover {
+  transform: translateY(-5px);
+}

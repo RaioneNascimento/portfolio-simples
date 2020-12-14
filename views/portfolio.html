@@ -1,139 +1,185 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Raione - Desenvolvedor Front-End</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-  <link rel="stylesheet" href="../public/styles/style.css">
+  <link rel="stylesheet" href="../public/styles/portfolio.css">
+  <link href="/public/images/favicon.png" rel="icon" type="image/x-icon" /><link href="/public/images/favicon.png" rel="icon" type="image/x-icon" />
 </head>
 <body>
   <header>
     <div class="links">
       <a href="../index.html">Home</a>
-      <a href="/">Sobre</a>
-      <a href="/">Portfólio</a>
-      <a href="/">Contatos</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="portfolio.html">Portfólio</a>
+      <a href="contato.html">Contatos</a>
     </div>
   </header>
 
-  <div id="proj">
-    <figure>
-      <img src="../public/images/quadrado_rosa.png" alt="quadrado rosa">
-    </figure>
-    <h1>Projetos</h1>
-  </div>
+  
 
-  <section class="cards">
-    <!-- <div class="card">
-      <div class="card__image-container">
-        <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" alt="ecoleta">
-      </div>
-      <div class="card__content">
-        <p>Aplicação Ecoleta - Criado na Semana Next Level Week | Raione Nascimento</p>
-      </div>
-      <div class="card__info">
-        <p>Projeto open source desenvolvido na semana Next Level Week usando as tecnologias HTML, CSS e JavaScript. </p>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card__image-container">
-        <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" alt="ecoleta">
-      </div>
-      <div class="card__content">
-        <p>Aplicação Happy-App - Criado na Semana Next Level Week | Raione Nascimento</p>
-      </div>
-      <div class="card__info">
-        <p>Projeto open source desenvolvido na semana Next Level Week usando as tecnologias HTML, CSS, TypeScript, ReactJs e ReactNative. </p>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card__image-container">
-        <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" alt="ecoleta">
-      </div>
-      <div class="card__content">
-        <p>Aplicação Happy-Web - Criado na Semana Next Level Week | Raione Nascimento</p>
-      </div>
-      <div class="card__info">
-        <p>Projeto open source desenvolvido na semana Next Level Week usando as tecnologias HTML, CSS, JavaScript e Handlebars. </p>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card__image-container">
-        <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" alt="ecoleta">
-      </div>
-      <div class="card__content">
-        <p>Aplicação Proffy - Criado na Semana Next Level Week | Raione Nascimento</p>
-      </div>
-      <div class="card__info">
-        <p>Projeto open source desenvolvido na semana Next Level Week usando as tecnologias HTML, CSS e JavaScript. </p>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card__image-container">
-        <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" alt="ecoleta">
-      </div>
-      <div class="card__content">
-        <p>Aplicação Be The Hero - Criado na Semana Next Level Week | Raione Nascimento</p>
-      </div>
-      <div class="card__info">
-        <p>Projeto open source desenvolvido na semana Next Level Week usando as tecnologias NodeJs, ReactJs e React Native. </p>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card__image-container">
-        <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" alt="ecoleta">
-      </div>
-      <div class="card__content">
-        <p>Aplicação Ecoleta - Criado na Semana Next Level Week | Raione Nascimento</p>
-      </div>
-      <div class="card__info">
-        <p>Projeto open source desenvolvido na semana Next Level Week usando as tecnologias HTML, CSS e JavaScript. </p>
-      </div>
-    </div> -->
+  <section class="projects conteudo todo-conteudo">
     
-    <h1>
-    
-    </h1>
-
-    <div class="card">
-      <div>
-        <img src="../public/images/card01" alt="Card 01">
-      </div>
-      <p>Happy App</p>
-      <span>Projeto de Estudo</span>
-
-
-
-      <a href="http://github.com/raionenascimento/"></a>
+    <div id="wrapper">
+      <h1>
+        <figure style="display: inline; margin-right: 15px;">
+          <img src="../public/images/quadrado_rosa.png" alt="quadrado rosa">
+        </figure>
+      Projetos</h1>
     </div>
 
 
+    <div class="divflex" style="display: flex; align-items: center; justify-content: space-around; flex-wrap: wrap;">
+        
+      <div class="project">
+        <div class="projectFolder" style="border-bottom: 3px solid #ed145b;">
+          <img src="../public/images/proj04.jpg" alt="Card 01">
+        </div>
+        <p>Happy App</p>
+        <span>Projeto de Estudo</span>
+  
+        <div style="display: flex; align-items: center; justify-content: center;">
+          <div class="projectIcon animations">
+            <img src="../public/images/skill03.png" alt="ReactJs">
+          </div>
+          <div class="projectIcon animations">
+            <img src="../public/images/skill04.png" alt="React Navite">
+          </div>
+          <div class="projectIcon animations">
+            <img src="../public/images/skill05.png" alt="NodeJs">
+          </div>
+          <div class="projectIcon animations">
+            <img src="../public/images/skill06.png" alt="TypeScript">
+          </div>
+        </div>
+        <a href="https://github.com/RaioneNascimento/happy-app" target="_blank">Acessar</a>
+      </div>
+
+      <div class="project">
+        <div class="projectFolder" style="border-bottom: 3px solid #ed145b;">
+          <img src="../public/images/proj04.jpg" alt="Card 01">
+        </div>
+        <p>Happy App</p>
+        <span>Projeto de Estudo</span>
+  
+        <div style="display: flex; align-items: center; justify-content: center;">
+          <div class="projectIcon animations">
+            <img src="../public/images/skill03.png" alt="ReactJs">
+          </div>
+          <div class="projectIcon animations">
+            <img src="../public/images/skill04.png" alt="React Navite">
+          </div>
+          <div class="projectIcon animations">
+            <img src="../public/images/skill05.png" alt="NodeJs">
+          </div>
+          <div class="projectIcon animations">
+            <img src="../public/images/skill06.png" alt="TypeScript">
+          </div>
+        </div>
+        <a href="https://github.com/RaioneNascimento/happy-app" target="_blank">Acessar</a>
+      </div>
+
+      <div class="project">
+        <div class="projectFolder" style="border-bottom: 3px solid #ed145b;">
+          <img src="../public/images/proj04.jpg" alt="Card 01">
+        </div>
+        <p>Happy App</p>
+        <span>Projeto de Estudo</span>
+  
+        <div style="display: flex; align-items: center; justify-content: center;">
+          <div class="projectIcon animations">
+            <img src="../public/images/skill03.png" alt="ReactJs">
+          </div>
+          <div class="projectIcon animations">
+            <img src="../public/images/skill04.png" alt="React Navite">
+          </div>
+          <div class="projectIcon animations">
+            <img src="../public/images/skill05.png" alt="NodeJs">
+          </div>
+          <div class="projectIcon animations">
+            <img src="../public/images/skill06.png" alt="TypeScript">
+          </div>
+        </div>
+        <a href="https://github.com/RaioneNascimento/happy-app" target="_blank">Acessar</a>
+      </div>
+
+      <div class="project">
+        <div class="projectFolder" style="border-bottom: 3px solid #ed145b;">
+          <img src="../public/images/proj04.jpg" alt="Card 01">
+        </div>
+        <p>Happy App</p>
+        <span>Projeto de Estudo</span>
+  
+        <div style="display: flex; align-items: center; justify-content: center;">
+          <div class="projectIcon animations">
+            <img src="../public/images/skill03.png" alt="ReactJs">
+          </div>
+          <div class="projectIcon animations">
+            <img src="../public/images/skill04.png" alt="React Navite">
+          </div>
+          <div class="projectIcon animations">
+            <img src="../public/images/skill05.png" alt="NodeJs">
+          </div>
+          <div class="projectIcon animations">
+            <img src="../public/images/skill06.png" alt="TypeScript">
+          </div>
+        </div>
+        <a href="https://github.com/RaioneNascimento/happy-app" target="_blank">Acessar</a>
+      </div>
+
+      <div class="project">
+        <div class="projectFolder" style="border-bottom: 3px solid #ed145b;">
+          <img src="../public/images/proj04.jpg" alt="Card 01">
+        </div>
+        <p>Happy App</p>
+        <span>Projeto de Estudo</span>
+  
+        <div style="display: flex; align-items: center; justify-content: center;">
+          <div class="projectIcon animations">
+            <img src="../public/images/skill03.png" alt="ReactJs">
+          </div>
+          <div class="projectIcon animations">
+            <img src="../public/images/skill04.png" alt="React Navite">
+          </div>
+          <div class="projectIcon animations">
+            <img src="../public/images/skill05.png" alt="NodeJs">
+          </div>
+          <div class="projectIcon animations">
+            <img src="../public/images/skill06.png" alt="TypeScript">
+          </div>
+        </div>
+        <a href="https://github.com/RaioneNascimento/happy-app" target="_blank">Acessar</a>
+      </div>
+
+      <div class="project">
+        <div class="projectFolder" style="border-bottom: 3px solid #ed145b;">
+          <img src="../public/images/proj04.jpg" alt="Card 01">
+        </div>
+        <p>Happy App</p>
+        <span>Projeto de Estudo</span>
+  
+        <div style="display: flex; align-items: center; justify-content: center;">
+          <div class="projectIcon animations">
+            <img src="../public/images/skill03.png" alt="ReactJs">
+          </div>
+          <div class="projectIcon animations">
+            <img src="../public/images/skill04.png" alt="React Navite">
+          </div>
+          <div class="projectIcon animations">
+            <img src="../public/images/skill05.png" alt="NodeJs">
+          </div>
+          <div class="projectIcon animations">
+            <img src="../public/images/skill06.png" alt="TypeScript">
+          </div>
+        </div>
+        <a href="https://github.com/RaioneNascimento/happy-app" target="_blank">Acessar</a>
+      </div>
+    </div>
+    
   </section>
-<!-- 
-  <div class="modal-overlay ">
-    <div class="modal">
-      <a class="close-modal">
-        <i class="material-icons">close</i>
-      </a>
-
-      <div class="modal-content">
-         link aqui 
-      </div>
-    </div> -->
-  </div>
-
-  <footer>
-    <p>
-      © Copyright 2020
-    </p>
-  </footer>
 
   <script src="../public/scripts/script.js"></script>
 </body>
