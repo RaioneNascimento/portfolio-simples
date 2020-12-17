@@ -126,3 +126,59 @@
 .animations:hover {
   transform: translateY(-10px);
 }
+
+@media (max-width: 1807px) {
+  .todo-conteudo {
+    text-align: center;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+    margin: 0 22px;
+  }
+  
+  .first-box {
+    width: auto;
+    text-align: center;
+    float: none;
+  }
+
+  .first-box .links-footer {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .secondary-box {
+    float: none;
+   
+  }
+
+  .secondary-box h2 {
+    margin-top: 20px;
+    padding: 0;
+  }
+
+  .secondary-box p {
+    text-align: center;
+    margin: 0 auto;
+
+    padding: 0;
+  }
+
+ 
+  .third-box {
+    margin: 0 ;
+    padding: 10px;
+
+    width: 100%;
+  }
+  .third-box img {
+    padding: 0;
+    margin: 10px 20px 30px;
+
+    width: 50px;
+    height: 50px;
+  }
+  
+}

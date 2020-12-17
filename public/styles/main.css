@@ -88,3 +88,13 @@ footer .copyright {
 
   font-size: 0.9em;
 }
+
+@media (max-width: 455px) {
+  header {
+    padding: 32px 15px;
+  }
+
+  .links a {
+    margin: 2%;
+  }
+}
