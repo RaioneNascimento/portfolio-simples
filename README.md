@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Logo" src="./sources/markdown/logo.png" width="300px" />
+    <img alt="Logo" src="./src/mkup/logo.png" width="300px" />
 </h1>
 
 <h3 align="center">
@@ -20,7 +20,7 @@
     <img alt="License" src="https://img.shields.io/badge/license-MIT-ed145b">
   </a>
 
-<img align="center" alt="devices" src="./sources/markdown/devices.png" width="700px" />
+<img align="center" alt="devices" src="./src/mkup/devices.png" width="700px" />
 
 </p>
 
