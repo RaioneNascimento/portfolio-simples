@@ -3,12 +3,12 @@
 </h1>
 
 <h3 align="center">
-  Portfólio de Apresentação Simples <br>
+  Portfólio de Apresentação Simples
   
 </h3>
 
-
-<blockquote align="center">“Sua única limitação é você mesmo!”</blockquote>
+<p align=center>
+    “Sua única limitação é você mesmo!”</p>
 
 <br>
 
