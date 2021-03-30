@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 100px;
+      }
+
+      .cls-1 {
+        font-family: FiraCode-Retina, "Fira Code";
+      }
+
+      .cls-2 {
+        fill: #bd1048;
+      }
+
+      .cls-3 {
+        font-family: "Fira Code";
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <text id="_RAIONENASCIMENTO_" data-name="&lt;RAIONENASCIMENTO/&gt;" class="cls-1" x="55" y="396"><tspan class="cls-2">&lt;</tspan><tspan class="cls-3">RAIONENASCIMENTO</tspan>/&gt;</text>
+</svg>

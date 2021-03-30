@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 100px;
+        font-family: FiraCode-Retina, "Fira Code";
+      }
+
+      .cls-1, .cls-3 {
+        fill: #ed145b;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: "Fira Code";
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <text id="_RAIONE.DEV_" data-name="&lt;RAIONE.DEV/&gt;" class="cls-1" x="240" y="396">&lt;<tspan class="cls-2">RAIONE<tspan class="cls-3">.</tspan>DEV</tspan>/&gt;</text>
+</svg>
