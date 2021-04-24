@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "http-server -o --cors"
+  },
   "dependencies": {
     "http-server": "^0.12.3"
   }
