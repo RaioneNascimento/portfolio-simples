@@ -69,7 +69,7 @@ $ npm install
 
 ```sh
 # Executando a aplicação web:
-$ http-server -o --cors
+$ yarn start ou npm start
 ```
 
 <br>
