@@ -36,15 +36,6 @@ Esse Projeto foi criado em HTML e CSS contendo as abas: Home, Sobre, Portfólio 
 <br>
 
 
-## ☁️ Aplicação Deployed
-
-  <a href="https://raionenascimento.com.br" target="_blank">
-    <img alt="Raione Nascimento" src="https://img.shields.io/badge/by%20Raione%20Nascimento-%23ed145b">
-  </a>
-
-<br>
-<br>
-
 ### ***Clone***
 ```sh
 # Clonando a aplicação web:
